@@ -7,13 +7,11 @@ print(name)
 
 # find the largest number in a list
 
-number = [80,90,1,2,44,100,101,501]
-for check_num in number:
-    output = check_num
-    if output < check_num:
-        for i in number:
-            i+=1
-print(output)
-
+numbers = [80,90,1,2,44,801,100,101,501]
+max = numbers[0]
+for number in numbers:
+    if max < number:
+        max = number
+print(max)
 
 
